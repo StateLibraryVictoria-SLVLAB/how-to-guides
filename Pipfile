@@ -7,10 +7,18 @@ name = "pypi"
 nltk = "*"
 svgling = "*"
 nbconvert = "*"
+datacollective = "*"
+pandas = "*"
+transformers = {extras = ["torch", "tf"], version = "*"}
+torchvision = "*"
+torchaudio = "*"
+torch = "==2.9.*"
+torchcodec = "==0.8.*"
 
 [dev-packages]
 jupyter = "*"
 notebook = "*"
+ipykernel = "*"
 
 [requires]
-python_version = "3.11"
+python_version = "3.12"
